@@ -5,7 +5,7 @@
 ![React](https://img.shields.io/badge/React-19.0.0-blue?style=for-the-badge&logo=react)
 ![Next.js](https://img.shields.io/badge/Next.js-15.2.3-black?style=for-the-badge&logo=next.js)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-blue?style=for-the-badge&logo=tailwind-css)
-![ShadCN UI](https://img.shields.io/badge/ShadCN_UI-%23ffffff?style=for-the-badge)
+![Shadcn/ui](https://img.shields.io/badge/ShadCN_UI-%23ffffff?style=for-the-badge)
 ![Motion](https://img.shields.io/badge/Framer_Motion-%23ff0080?style=for-the-badge&logo=framer)
 
 Skyline Builders is a premier construction company dedicated to delivering high-quality residential and commercial building solutions. Our expertise spans architectural design, engineering, and contracting services, ensuring every project is executed with precision and excellence. We transform visions into reality, creating structures that stand as testaments to innovation and durability.

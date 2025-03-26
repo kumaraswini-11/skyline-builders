@@ -1,6 +1,6 @@
 import {RiFacebookFill, RiYoutubeFill, RiTwitterXFill, RiInstagramFill} from "react-icons/ri";
 
-import {NavLink, SocialLink} from "@/types";
+import {NavLink, SocialLink, Statistic} from "@/types";
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
@@ -55,6 +55,13 @@ export const navLinks: NavLink[] = [
     label: "Contact",
     path: "contact",
   },
+] as const;
+
+export const statistics: Statistic[] = [
+  {value: 99, suffix: "%", label: "Client Satisfaction"},
+  {value: 800, suffix: "+", label: "Successful Projects"},
+  {value: 32, suffix: "k", label: "Happy Clients"},
+  {value: 26, suffix: "+", label: "Years of Experience"},
 ] as const;
 
 export const CONTACT_INFO = {

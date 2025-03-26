@@ -17,3 +17,9 @@ export interface NavLink {
   label: string;
   path: string;
 }
+
+export interface Statistic {
+  value: number;
+  suffix: string;
+  label: string;
+}

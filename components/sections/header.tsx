@@ -48,11 +48,14 @@ export const Header: React.FC = () => {
             {/* Button */}
             <Button
               variant="outline"
-              className="group text-primary h-12 w-[200px] bg-white hover:bg-white/90">
+              className={cn(
+                "group text-primary bg-white hover:bg-white/90",
+                "h-[54px] w-[210px] py-[5px] pr-[5px] pl-[10px]"
+              )}>
               <span className="flex-1 text-sm font-bold tracking-[1.2px] uppercase">
                 Get a quote
               </span>
-              <span className="bg-primary group-hover:bg-primary/90 ml-2 flex size-9 items-center justify-center rounded-sm transition-colors">
+              <span className="bg-primary group-hover:bg-primary/90 ml-2 flex size-10 items-center justify-center rounded-sm transition-colors">
                 <RiArrowRightUpLine className="text-xl text-white transition-transform group-hover:rotate-45" />
               </span>
             </Button>
