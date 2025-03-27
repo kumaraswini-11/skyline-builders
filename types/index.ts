@@ -23,3 +23,12 @@ export interface Statistic {
   suffix: string;
   label: string;
 }
+
+export interface Service {
+  name: string;
+  icon: React.ComponentType<{className?: string}>;
+  title: string;
+  description: string;
+  serviceList: string[];
+  images: {url: string}[];
+}
